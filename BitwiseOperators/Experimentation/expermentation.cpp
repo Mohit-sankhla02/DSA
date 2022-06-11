@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a = 6;
+    int b = 4;
+    // And operator
+    cout << "a & b " << (a & b) << endl;
+    // Or operator
+    cout << "a | b " << (a | b) << endl;
+    // Not operator
+    cout << "~a " << (~a) << endl;
+    // Xor operator
+    cout << "a^b " << (a ^ b) << endl;
+    return 0;
+}
