@@ -21,7 +21,7 @@ int pivot(int arr[], int n)
         mid = s + (e-s)/2;              
     }              
 
-    return arr[e];              
+    return s;              
 }
 
 int main()
