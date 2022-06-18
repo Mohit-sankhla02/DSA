@@ -9,7 +9,7 @@ int sqrtInteger(int n)
     int mid = s + (e - s) / 2;
 
     int ans = -1;
-    while (s < e)
+    while (s <= e)
     {
         int square = mid * mid;
         if (square == n)
