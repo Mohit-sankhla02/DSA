@@ -10,11 +10,10 @@ int main()
 
     vector<int> v;
 
-    //vector initialisation with known size and value of elements
-    vector<int> a(5,1); 
-    //size of the vector is 5 and the elements are 1
-    //therefore the vector is 1 1 1 1 1
-
+    // vector initialisation with known size and value of elements
+    vector<int> a(5, 1);
+    // size of the vector is 5 and the elements are 1
+    // therefore the vector is 1 1 1 1 1
 
     cout << "capacity -> " << v.capacity() << endl;
     v.push_back(1);
@@ -33,7 +32,7 @@ int main()
     cout << "First Element -> " << v.front() << endl;
     cout << "Last Element -> " << v.back() << endl;
 
-    //pop_back function
+    // pop_back function
 
     cout << "Before Pop " << endl;
     for (int i : v)
@@ -50,25 +49,27 @@ int main()
     }
     cout << endl;
 
-    //Clearing the vector completely
-    cout<<"size before clearing the vector "<<v.size()<<endl;
+    // Clearing the vector completely
+    cout << "size before clearing the vector " << v.size() << endl;
     v.clear();
-    cout<<"size after clearing the vector "<<v.size()<<endl;
+    cout << "size after clearing the vector " << v.size() << endl;
 
-    //copying a vector into another vector
+    // copying a vector into another vector
     vector<int> last(a);
 
-    cout<<"Elements of a"<<endl;
-    for(int i : a)
+    cout << "Elements of a" << endl;
+    for (int i : a)
     {
-        cout<<i<<" ";
-    }cout<<endl;
+        cout << i << " ";
+    }
+    cout << endl;
 
-    cout<<"Elements of last"<<endl;
-    for(int i : last)
+    cout << "Elements of last" << endl;
+    for (int i : last)
     {
-        cout<<i<<" ";
-    }cout<<endl;
+        cout << i << " ";
+    }
+    cout << endl;
 
     return 0;
 }
